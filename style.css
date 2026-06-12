@@ -1,0 +1,29 @@
+:root {
+    --main-color: black;
+    --accent-color: blue;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    background-image: url(https://i5.walmartimages.com/seo/7x5ft-White-Brick-Wall-Backdrop-Rustic-Textured-Brick-Photo-Background-Wedding-Baby-Shower-Birthday-Party-Graduation-Studio-Photography-Vintage-Indus_96b064aa-e108-4038-8d8c-6d3a535c89d3.086ae95869e5d44d44b15b8fa80d9d8d.jpeg?odnHeight=328&odnWidth=328&odnBg=FFFFFF);
+     background-size: cover;
+}
+
+h1, h2 {
+    font-family: 'Space Grotesk', sans-serif;
+    color: var(--accent-color);
+}
+
+#resumeTable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#resumeTable th, #resumeTable td {
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+
+#resumeTable tbody tr:nth-child(odd) {
+    background-color: gray;
+}
